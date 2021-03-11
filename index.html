@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/99848c339a.js" crossorigin="anonymous"></script>
     <title>INDEX.HTML</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/png" href="cat.png">
   </head>
   <body>
@@ -18,15 +19,16 @@
       <a href="https://www.google.com/" target="_blank">Blank</a>
       <section>
         <p>Some Videos and Audios</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rL-e3m0XRTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video src="uchiha.mp4" width="400" controls> Not supported </video>
         <p>Audio too!</p>
-        <audio src="uchiha.mp4" controls>
+        <audio src="uchiha.mp4" controls loop>
           Audio
         </audio>
+
         <iframe width="560" height="315" src="https://www.youtube.com/embed/G1IbRujko-A?start=32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
       <section>
-        <table border="1">
+        <table>
           <caption>Table</caption>
           <tr><td>Table</td><th>1</th><th>2</th><th>3</th></tr>
           <tr><th>1</th><td>1</td><td>2</td><td>3</td></tr>
@@ -40,10 +42,38 @@
         <button type="button" name="button">YES</button>
         <meter value="25" min="0" max="100"></meter>
         <progress value="50" max="100">37%</progress>
+        <table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Player</th>
+      <th>Position</th>
+      <th>Height</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8</td>
+      <td>Marco Belinelli</td>
+      <td>G</td>
+      <td>6-5</td>
+      <td>195</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Carlos Boozer</td>
+      <td>F</td>
+      <td>6-9</td>
+      <td>266</td>
+    </tr>
+  </tbody>
+</table>
       </section>
     </main>
     <footer>
       <p>FOOTER</p>
+      <p>Очень <span>Полезная</span> Информация</p>
     </footer>
   </body>
 </html>
